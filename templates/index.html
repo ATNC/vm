@@ -1,0 +1,9 @@
+qweqwewqe
+<script src="http://vk.com/js/api/xd_connection.js?2" type="text/javascript"></script>
+
+<a href="/login/vk-oauth2" >Click to authenticate</a>
+{% if not request.user.is_anonymous and request.user %}
+
+{{ request.user }}
+
+{% endif %}

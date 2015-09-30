@@ -1,0 +1,7 @@
+Django<=1.8.4
+python-social-auth
+python-openid
+requests-oauthlib
+psycopg2
+vk
+python-slugify
